@@ -12,7 +12,7 @@ const Card = ({cardImage, card}) => {
 
   return (
     <div className="card border-secondary col-md-5 mb-3">      
-      <img src={cardImage} alt={`${title}`} className="card-img" height="150px" />
+      <img src={cardImage} alt={`${title}`} className="card-img" />
       <div className="card-body">       
           <h3 className="card-title">{title}</h3>
           <p className="card-text">{description}</p>
