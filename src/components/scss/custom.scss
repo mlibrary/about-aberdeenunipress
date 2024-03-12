@@ -424,6 +424,11 @@ p.social {
     text-decoration: none;
   }
 
+  ul li a:hover,
+  ol li a:hover {
+    text-decoration: underline;
+  }
+
   .partners {
     display: flex;
     flex-direction: column;

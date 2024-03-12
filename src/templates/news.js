@@ -10,7 +10,7 @@ const News = ({data}) => {
   return (
     <Layout>
       <SEO title={title} />
-      <div className="container page-container pt-5">
+      <div className="container page-container pt-5 pb-5">
         <div className="row pb-4">
           <div className="col-md-10">
             <p><a href="/news">&#8592; Go back to all News</a></p>
