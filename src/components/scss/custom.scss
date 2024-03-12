@@ -89,6 +89,10 @@ h5 {
   margin-top: 1rem;
 }
 
+b, strong {
+  font-weight: 700 !important;
+}
+
 a:focus,
 button:focus,
 .form-control:focus,
@@ -198,6 +202,10 @@ header {
   border: 1px solid $aberdeenuni-brand-color;
   border-top: 0;
   box-shadow: 1px 5px 12px 0px #AFAFAF;
+
+  .dropdown-item:active {
+    background-color: $aberdeenuni-brand-color;
+  }
 }
 
 // cards
@@ -265,6 +273,11 @@ header {
   .tagline p {
     font-weight: 500;
     font-size: 1.6rem;
+  }
+
+  .cta-tagline {
+    padding-left: 5rem;
+    padding-top: 3rem;
   }
 }
 
