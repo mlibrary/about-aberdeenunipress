@@ -265,6 +265,7 @@ header {
   background-color: $aberdeenuni-primary-navy;
   padding: 4rem 0;
   border-top: 1px solid $aberdeenuni-brand-color;
+  @include navigo;
 
   .row {
     justify-content: space-between;
@@ -320,6 +321,28 @@ blockquote {
   padding-top: 2rem;
 }
 
+// Team
+.team-page {
+  .row {
+    padding-top: 1rem;
+  }
+  .name-card {
+    text-align: center;
+    .image {
+      display: block;
+      padding-bottom: .5em;
+      img {
+        max-width: 150px;
+        border: 1px solid #e5e5e5;
+        border-radius: 50%;
+        height: auto;
+      }
+    }
+    .title {
+      display: block;
+    }
+  }
+}
 
 // News
 .blog-card-list {

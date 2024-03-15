@@ -1,9 +1,9 @@
 ---
 templateKey: card
 title: Our Books
-description: We publish high-quality, peer-reviewed open educational resources that are engaging and useful for teaching and learning.
+description: Browse our collection of Open Access monographs and book series.
 buttonLabel: Browse Books
-buttonUrl: https://www.fulcrum.org/aperio
+buttonUrl: https://www.fulcrum.org/aberdeenunipress
 cardImage: assets/books.jpg
 date: 2023-11-15T11:25:21.341Z
 ---

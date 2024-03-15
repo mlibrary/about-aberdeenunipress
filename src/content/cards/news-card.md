@@ -1,9 +1,9 @@
 ---
 templateKey: card
 title: News and Events
-description: Stay tuned for events and news posted
+description: Keep up to date with our latest news, ideas and planned events.
 buttonLabel: Coming Soon
 buttonUrl: /news
-cardImage: assets/journals.jpg
+cardImage: assets/news.jpg
 date: 2023-11-14T13:25:00.000Z
 ---
