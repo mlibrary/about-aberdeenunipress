@@ -59,10 +59,10 @@ const IndexPage = ({data}) => {
         <section className="tagline-container">
           <div className="container">
             <div className="row">
-              <div className="tagline col-md-8">
+              <div className="tagline col-md-8 offset-md-2">
                 <Tagline text={tagline.text} />
               </div>
-              <div className="cta-tagline col-md-4">
+              <div className="cta-tagline col-md-2">
                 <a className="btn btn-lg btn-primary text-dark" href={tagline.buttonUrl}>{tagline.buttonLabel}</a>
               </div>
             </div>

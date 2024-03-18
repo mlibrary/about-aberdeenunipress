@@ -263,6 +263,9 @@ header {
 // home - tagline and cta button
 .tagline-container {
   background-color: $aberdeenuni-primary-navy;
+  background-image: url("/assets/tagline-background.png");
+  background-repeat: no-repeat;
+  background-size: contain;
   padding: 4rem 0;
   border-top: 1px solid $aberdeenuni-brand-color;
   @include navigo;
@@ -277,7 +280,6 @@ header {
   }
 
   .cta-tagline {
-    padding-left: 5rem;
     padding-top: 3rem;
   }
 }
