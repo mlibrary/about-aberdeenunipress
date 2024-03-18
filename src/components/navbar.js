@@ -37,7 +37,7 @@ const Navbar = () => {
               About
             </Link>
             <a className="nav-link text-dark" href="https://fulcrum.org/aberdeenunipress">Books</a>
-            <a className="nav-link text-dark" href="https://journals.aberdeenunipress/journals">Journals</a>
+            <a className="nav-link text-dark" href="https://journals.aberdeenunipress.org/journals">Journals</a>
             <div className="dropdown show">
               <a className="nav-link text-dark dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Publish with us
