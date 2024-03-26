@@ -37,6 +37,7 @@ const Footer = () => {
           <section className="col-md-3">
             <ul className="list-unstyled pt-4">
               <li><a className="text-light navigo" href="/about">About</a></li>
+              <li><a className="text-light navigo" href="/authorship">Authorship Guidelines</a></li>
               <li><a className="text-light navigo" href="/peer-review">Peer Review</a></li>
               <li><a className="text-light navigo" href="/research-integrity">Research Integrity</a></li>
               <li><a className="text-light navigo" href="/assets/AUP_Author_Style_Guide_v2.docx">Style Guide</a></li>

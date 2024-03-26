@@ -152,7 +152,7 @@ School of Divinity, History, Philosophy and Art History</span>
                 </div>
                 <div className="name-card mb-3 col-md-4">
                     <span className="image">
-                        <img src="/assets/avatar-person.svg" alt="" />
+                        <img src="/assets/schulz-300px.png" alt="Portrait photo of Rainer Schulz" />
                     </span>
                     <strong className="navigo">Rainer Schulz</strong>
                     <span className="title">Business School</span>

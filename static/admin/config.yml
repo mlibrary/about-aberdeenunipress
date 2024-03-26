@@ -105,6 +105,13 @@ collections:
           - { name: templateKey, label: "Template Key", widget: hidden, default: research-integrity-page }
           - { name: title, label: Research Integrity }
           - { name: body, label: Body, widget: markdown }
+      - file: "src/content/authorship.md"
+        name: authorship
+        label: Authorship
+        fields:
+          - { name: templateKey, label: "Template Key", widget: hidden, default: authorship-page }
+          - { name: title, label: Authorship }
+          - { name: body, label: Body, widget: markdown }
       - file: "src/content/help.md"
         name: help
         label: Help
