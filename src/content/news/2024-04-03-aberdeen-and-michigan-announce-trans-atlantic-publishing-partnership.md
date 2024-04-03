@@ -1,5 +1,5 @@
 ---
-templateKey: story
+templateKey: news
 title: Aberdeen and Michigan announce trans-Atlantic publishing partnership
 summary: The University of Aberdeen and the University of Michigan have come
   together to launch a new trans-Atlantic publishing partnership that will
