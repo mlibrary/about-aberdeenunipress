@@ -106,7 +106,7 @@ School of Divinity, History, Philosophy and Art History</span>
                         <img src="/assets/francis-300px.png" alt="Portrait photo of Emma Francis" />
                     </span>
                     <strong className="navigo">Emma Francis</strong>
-                    <span className="title">Aberdeen University Press Manager & Open Research Manager</span>
+                    <span className="title">Aberdeen University Press and Open Research Manager</span>
                 </div>
                 <div className="name-card mb-3 col-md-4">
                     <span className="image">
