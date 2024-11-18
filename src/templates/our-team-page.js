@@ -42,10 +42,10 @@ const OurTeam = ({data}) => {
         <div className="row">
                 <div className="name-card mb-3 col-md-3">
                     <span className="image">
-                        <img className="img-fluid" src="/assets/avatar-person.svg" alt="" />
+                        <img className="img-fluid" src="/assets/robotham-300px.png" alt="Portrait photo of Ian Robotham" />
                     </span>
-                    <strong className="navigo">Brian Henderson</strong>
-                    <span className="title">Chair, Director of Digital and Information Services</span>
+                    <strong className="navigo">Ian J Robotham</strong>
+                    <span className="title">Director, Digital & Information Services</span>
                 </div>
                 <div className="name-card mb-3 col-md-3">
                     <span className="image">
@@ -56,10 +56,10 @@ const OurTeam = ({data}) => {
                 </div>
                 <div className="name-card mb-3 col-md-3">
                     <span className="image">
-                        <img src="/assets/avatar-person.svg" alt="" />
+                        <img src="/assets/rattray-200px.png" alt="Portrait photo of Elizabeth Rattray" />
                     </span>
-                    <strong className="navigo">Marlis Barraclough</strong>
-                    <span className="title">Research Policy and REF Manager</span>
+                    <strong className="navigo">Elizabeth Rattray</strong>
+                    <span className="title">Chief Operating Officer, Grants Academy</span>
                 </div>
                 <div className="name-card mb-3 col-md-3">
                     <span className="image">
@@ -70,13 +70,37 @@ const OurTeam = ({data}) => {
                 </div>                
         </div>
         <div className="row">
-                <div className="name-card mb-3 col-md-4">
+                <div className="name-card mb-3 col-md-3">
                     <span className="image">
-                        <img className="img-fluid" src="/assets/ducato-200px.png" alt="Portrait photo of Rossana Ducato" />
+                        <img className="img-fluid" src="/assets/oren-200px.png" alt="Portrait photo of Nir Oren" />
                     </span>
-                    <strong className="navigo">Rossana Ducato</strong>
-                    <span className="title">Lecturer in Law</span>
+                    <strong className="navigo">Nir Oren</strong>
+                    <span className="title">Dean for Knowledge and Understanding</span>
                 </div>
+                <div className="name-card mb-3 col-md-3">
+                    <span className="image">
+                        <img className="img-fluid" src="/assets/forsyth-300px.png" alt="Portrait photo of Nicholas Forsyth" />
+                    </span>
+                    <strong className="navigo">Nicholas Forsyth</strong>
+                    <span className="title">Vice-Principle for Research</span>
+                </div>
+                <div className="name-card mb-3 col-md-3">
+                    <span className="image">
+                        <img className="img-fluid" src="/assets/morgan-300px.png" alt="Portrait photo of Heather May Morgan" />
+                    </span>
+                    <strong className="navigo">Heather May Morgan</strong>
+                    <span className="title">Dean for Enterprise and Innovation</span>
+                </div>
+                <div className="name-card mb-3 col-md-3">
+                    <span className="image">
+                        <img className="img-fluid" src="/assets/dilley-300px.png" alt="Portrait photo of Andrew Dilley" />
+                    </span>
+                    <strong className="navigo">Andrew Dilley</strong>
+                    <span className="title">Chair of the Friends of Aberdeen University Library, 
+School of Divinity, History, Philosophy and Art History</span>
+                </div>
+        </div>
+        <div className="row">
                 <div className="name-card mb-3 col-md-4">
                     <span className="image">
                         <img src="/assets/francis-300px.png" alt="Portrait photo of Emma Francis" />
@@ -91,7 +115,13 @@ const OurTeam = ({data}) => {
                     <strong className="navigo">Susan Halfpenny</strong>
                     <span className="title">Head of Research and Learning Information Services</span>
                 </div>
-                              
+                <div className="name-card mb-3 col-md-4">
+                    <span className="image">
+                        <img src="/assets/watkinson-300px.png" alt="Portrain photo of Charles Watkinson" />
+                    </span>
+                    <strong className="navigo">Charles Watkinson</strong>
+                    <span className="title">Director, University of Michigan Press</span>
+                </div>            
         </div>
         <h2>Academic Advisory Board</h2>
         <p><em>For the period 2022-2025</em></p>
