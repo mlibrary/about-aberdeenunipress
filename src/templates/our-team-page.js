@@ -124,14 +124,14 @@ School of Divinity, History, Philosophy and Art History</span>
                 </div>            
         </div>
         <h2>Academic Advisory Board</h2>
-        <p><em>For the period 2022-2025</em></p>
+        <p><em>For the period 2025-2028</em></p>
         <div className="row">
                 <div className="name-card mb-3 col-md-4">
                     <span className="image">
-                        <img className="img-fluid" src="/assets/brown-300px.png" alt="Portrait photo of Michael Brown" />
+                        <img src="/assets/bains-300px.png" alt="Portrait photo of Simon Baines" />
                     </span>
-                    <strong className="navigo">Michael Brown</strong>
-                    <span className="title">Chair, School of Divinity, History, Philosophy and Art History</span>
+                    <strong className="navigo">Simon Bains</strong>
+                    <span className="title">University Librarian</span>
                 </div>
                 <div className="name-card mb-3 col-md-4">
                     <span className="image">
@@ -142,20 +142,27 @@ School of Divinity, History, Philosophy and Art History</span>
                 </div>
                 <div className="name-card mb-3 col-md-4">
                     <span className="image">
-                        <img src="/assets/bains-300px.png" alt="Portrait photo of Simon Baines" />
+                        <img className="img-fluid" src="/assets/bhardwaj-300px.png" alt="Portrait photo of Anshuman Bhardwaj" />
                     </span>
-                    <strong className="navigo">Simon Bains</strong>
-                    <span className="title">University Librarian</span>
-                </div>                
+                    <strong className="navigo">Anshuman Bhardwaj</strong>
+                    <span className="title">School of Geosciences</span>
+                </div>
+                                
         </div>
         <div className="row">
                 <div className="name-card mb-3 col-md-4">
                     <span className="image">
-                        <img className="img-fluid" src="/assets/dilley-300px.png" alt="Portrait photo of Andrew Dilley" />
+                        <img className="img-fluid" src="/assets/brown-300px.png" alt="Portrait photo of Michael Brown" />
                     </span>
-                    <strong className="navigo">Andrew Dilley</strong>
-                    <span className="title">Chair of the Friends of Aberdeen University Library, 
-School of Divinity, History, Philosophy and Art History</span>
+                    <strong className="navigo">Michael Brown</strong>
+                    <span className="title">Chair, School of Divinity, History, Philosophy and Art History</span>
+                </div>
+                <div className="name-card mb-3 col-md-4">
+                    <span className="image">
+                        <img className="img-fluid" src="/assets/entwistle-300px.png" alt="Portrait photo of Vikki Entwistle" />
+                    </span>
+                    <strong className="navigo">Vikki Entwistle</strong>
+                    <span className="title">School of Medicine, Medical Sciences and Nutrition</span>
                 </div>
                 <div className="name-card mb-3 col-md-4">
                     <span className="image">
@@ -163,6 +170,15 @@ School of Divinity, History, Philosophy and Art History</span>
                     </span>
                     <strong className="navigo">Emma Francis</strong>
                     <span className="title">Aberdeen University Press Manager</span>
+                </div>                                
+        </div>
+        <div className="row">
+                <div className="name-card mb-3 col-md-4">
+                    <span className="image">
+                        <img src="/assets/macklin-300px.png" alt="Portrait photo of Rebecca Macklin" />
+                    </span>
+                    <strong className="navigo">Rebecca Macklin</strong>
+                    <span className="title">School of Language, Literature, Music and Visual Culture</span>
                 </div>
                 <div className="name-card mb-3 col-md-4">
                     <span className="image">
@@ -170,17 +186,17 @@ School of Divinity, History, Philosophy and Art History</span>
                     </span>
                     <strong className="navigo">Clare Moran</strong>
                     <span className="title">School of Law</span>
-                </div>                
-        </div>
-        <div className="row">
+                </div>
                 <div className="name-card mb-3 col-md-4">
                     <span className="image">
                         <img className="img-fluid" src="/assets/morimoto-300px.png" alt="Portrait photo of Juliano Morimoto" />
                     </span>
                     <strong className="navigo">Juliano Morimoto</strong>
                     <span className="title">School of Natural and Computing Sciences</span>
-                </div>
-                <div className="name-card mb-3 col-md-4">
+                </div>                             
+        </div>
+        <div className="row">
+        <div className="name-card mb-3 col-md-4">
                     <span className="image">
                         <img src="/assets/schulz-300px.png" alt="Portrait photo of Rainer Schulz" />
                     </span>
@@ -193,7 +209,14 @@ School of Divinity, History, Philosophy and Art History</span>
                     </span>
                     <strong className="navigo">Rachel Shanks</strong>
                     <span className="title">School of Education</span>
-                </div>                
+                </div>
+                <div className="name-card mb-3 col-md-4">
+                    <span className="image">
+                        <img src="/assets/tatler-300px.png" alt="Portrait photo of Ben Tatler" />
+                    </span>
+                    <strong className="navigo">Ben Tatler</strong>
+                    <span className="title">Dean of Research Culture</span>
+                </div>   
         </div>
       </div>
         
