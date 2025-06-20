@@ -34,9 +34,20 @@ const Footer = () => {
               <a className="youtube" href="https://www.youtube.com/playlist?list=PLmKrFyUVrIH4PYOSdsGrrZXzgDZia_WQL"><img src="/assets/youtube-light.svg" alt="YouTube" height="18px" width="auto" /></a>            
             </span>
           </section>
-          <section className="col-md-3">
+          <section className="col-md-4">
             <ul className="list-unstyled pt-4">
               <li><a className="text-light navigo" href="/about">About</a></li>
+              <li><a className="text-light navigo" href="https://fulcrum.org/aberdeenunipress">Books</a></li>
+              <li><a className="text-light navigo" href="https://journals.aberdeenunipress.org/journals">Journals</a></li>
+              <li><a className="text-light navigo" href="/our-principles">Our Guiding Principles</a></li>
+              <li><a className="text-light navigo" href="/proposal-books">Book Proposals</a></li>
+              <li><a className="text-light navigo" href="/proposal-book-series">Book Series Proposals</a></li>
+              <li><a className="text-light navigo" href="/proposal-journals">Journals Proposals</a></li>
+              <li><a className="text-light navigo" href="/contact">Contact</a></li>
+            </ul>
+          </section>
+          <section className="col-md-4">
+            <ul className="list-unstyled pt-4">
               <li><a className="text-light navigo" href="/authorship">Authorship Guidelines</a></li>
               <li><a className="text-light navigo" href="/peer-review">Peer Review</a></li>
               <li><a className="text-light navigo" href="/research-integrity">Research Integrity</a></li>

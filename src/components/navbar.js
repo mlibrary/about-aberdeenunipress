@@ -39,10 +39,10 @@ const Navbar = () => {
             <a className="nav-link text-dark" href="https://fulcrum.org/aberdeenunipress">Books</a>
             <a className="nav-link text-dark" href="https://journals.aberdeenunipress.org/journals">Journals</a>
             <div className="dropdown show">
-              <a className="nav-link text-dark dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <button className="dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-expanded="false">
                 Publish with us
-              </a>
-              <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              </button>
+              <div className="dropdown-menu">
                 <a className="dropdown-item" href="/our-principles">Our Guiding Principles</a>
                 <a className="dropdown-item" href="/proposal-books">Book Proposals</a>
                 <a className="dropdown-item" href="/proposal-book-series">Book Series Proposals</a>
