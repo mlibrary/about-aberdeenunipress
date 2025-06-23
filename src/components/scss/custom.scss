@@ -179,6 +179,24 @@ header {
 
   }
 }
+
+#dropdownMenuLink {
+  color: $aberdeenuni-brand-color;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  background-color: white;
+  border: none;
+  border-radius: 0;
+}
+
+#dropdownMenuLink:hover,
+#dropdownMenuLink:active {
+  text-decoration: underline;
+}
+
 // Logo
 .navbar-brand-logo {
   padding-right: 1rem;
