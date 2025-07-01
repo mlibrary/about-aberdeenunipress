@@ -308,6 +308,28 @@ header {
   a .card-text {
     color: $aberdeenuni-primary-navy;
   }
+
+  .card:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .card-body {
+    position: relative;
+
+    a::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+    }
+
+    a:focus {
+      outline: initial;
+    }
+  }
 }
 
 // tables
