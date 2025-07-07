@@ -21,7 +21,7 @@ const Footer = () => {
     <footer className="footer text-white">
       <div className="container">
         <div className="row justify-content-between">
-          <section className="col-md-4 contact">
+          <section className="col-md-6 contact">
             <a href="/" className="logo navigo">
               <img src="/assets/aberdeen.svg" height="75px" width="auto" alt="" />
             </a>
@@ -34,8 +34,8 @@ const Footer = () => {
               <a className="youtube" href="https://www.youtube.com/playlist?list=PLmKrFyUVrIH4PYOSdsGrrZXzgDZia_WQL"><img src="/assets/youtube-light.svg" alt="YouTube" height="18px" width="auto" /></a>            
             </span>
           </section>
-          <section className="col-md-4">
-            <ul className="list-unstyled pt-4">
+          <section className="col-md-3">
+            <ul className="list-unstyled pt-3">
               <li><a className="text-light navigo" href="/about">About</a></li>
               <li><a className="text-light navigo" href="https://fulcrum.org/aberdeenunipress">Books</a></li>
               <li><a className="text-light navigo" href="https://journals.aberdeenunipress.org/journals">Journals</a></li>
@@ -46,8 +46,8 @@ const Footer = () => {
               <li><a className="text-light navigo" href="/contact">Contact</a></li>
             </ul>
           </section>
-          <section className="col-md-4">
-            <ul className="list-unstyled pt-4">
+          <section className="col-md-3">
+            <ul className="list-unstyled pt-3">
               <li><a className="text-light navigo" href="/authorship">Authorship Guidelines</a></li>
               <li><a className="text-light navigo" href="/peer-review">Peer Review</a></li>
               <li><a className="text-light navigo" href="/research-integrity">Research Integrity</a></li>
