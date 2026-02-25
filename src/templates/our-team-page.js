@@ -82,7 +82,7 @@ const OurTeam = ({data}) => {
                         <img className="img-fluid" src="/assets/forsyth-300px.png" alt="Portrait of Nicholas Forsyth" />
                     </span>
                     <strong className="navigo">Nicholas Forsyth</strong>
-                    <span className="title">Vice-Principle for Research</span>
+                    <span className="title">Vice-Principal for Research</span>
                 </div>
                 <div className="name-card mb-3 col-md-3">
                     <span className="image">
