@@ -42,13 +42,6 @@ const OurTeam = ({data}) => {
         <div className="row">
                 <div className="name-card mb-3 col-md-3">
                     <span className="image">
-                        <img className="img-fluid" src="/assets/robotham-300px.png" alt="Portrait of Ian Robotham" />
-                    </span>
-                    <strong className="navigo">Ian J Robotham</strong>
-                    <span className="title">Director, Digital & Information Services</span>
-                </div>
-                <div className="name-card mb-3 col-md-3">
-                    <span className="image">
                         <img src="/assets/bains-300px.png" alt="Portrait of Simon Bains" />
                     </span>
                     <strong className="navigo">Simon Bains</strong>
@@ -56,34 +49,38 @@ const OurTeam = ({data}) => {
                 </div>
                 <div className="name-card mb-3 col-md-3">
                     <span className="image">
-                        <img src="/assets/wrighton-300px.png" alt="Portrait of John Wrighton" />
-                    </span>
-                    <strong className="navigo">John Wrighton</strong>
-                    <span className="title">Head of Research Strategy & Policy & REF Manager</span>
-                </div>
-                <div className="name-card mb-3 col-md-3">
-                    <span className="image">
                         <img src="/assets/brown-300px.png" alt="Portrait of Michael Brown" />
                     </span>
                     <strong className="navigo">Michael Brown</strong>
                     <span className="title">Chair in Irish, Scottish and Enlightenment History</span>
-                </div>                
-        </div>
-        <div className="row">
-                <div className="name-card mb-3 col-md-4">
+                </div> 
+                <div className="name-card mb-3 col-md-3">
                     <span className="image">
-                        <img className="img-fluid" src="/assets/oren-200px.png" alt="Portrait of Nir Oren" />
+                        <img className="img-fluid" src="/assets/dilley-300px.png" alt="Portrait of Andrew Dilley" />
                     </span>
-                    <strong className="navigo">Nir Oren</strong>
-                    <span className="title">Dean for Knowledge and Understanding</span>
-                </div>
-                <div className="name-card mb-3 col-md-4">
+                    <strong className="navigo">Andrew Dilley</strong>
+                    <span className="title">Chair of the Friends of Aberdeen University Library, 
+School of Divinity, History, Philosophy and Art History</span>
+                </div> 
+                <div className="name-card mb-3 col-md-3">
                     <span className="image">
                         <img className="img-fluid" src="/assets/forsyth-300px.png" alt="Portrait of Nicholas Forsyth" />
                     </span>
                     <strong className="navigo">Nicholas Forsyth</strong>
                     <span className="title">Provost</span>
                 </div>
+
+                              
+        </div>
+        <div className="row">
+                <div className="name-card mb-3 col-md-4">
+                    <span className="image">
+                        <img src="/assets/francis-300px.png" alt="Portrait of Emma Francis" />
+                    </span>
+                    <strong className="navigo">Emma Francis</strong>
+                    <span className="title">Aberdeen University Press and Open Research Manager</span>
+                </div>   
+
                 <div className="name-card mb-3 col-md-4">
                     <span className="image">
                         <img className="img-fluid" src="/assets/morgan-300px.png" alt="Portrait of Heather May Morgan" />
@@ -91,31 +88,43 @@ const OurTeam = ({data}) => {
                     <strong className="navigo">Heather May Morgan</strong>
                     <span className="title">Dean for Enterprise and Innovation</span>
                 </div>
+
+                <div className="name-card mb-3 col-md-4">
+                    <span className="image">
+                        <img className="img-fluid" src="/assets/oren-200px.png" alt="Portrait of Nir Oren" />
+                    </span>
+                    <strong className="navigo">Nir Oren</strong>
+                    <span className="title">Dean for Knowledge and Understanding</span>
+                </div>
+                
+                
                 
         </div>
         <div className="row">
                 <div className="name-card mb-3 col-md-4">
                     <span className="image">
-                        <img className="img-fluid" src="/assets/dilley-300px.png" alt="Portrait of Andrew Dilley" />
+                        <img className="img-fluid" src="/assets/robotham-300px.png" alt="Portrait of Ian Robotham" />
                     </span>
-                    <strong className="navigo">Andrew Dilley</strong>
-                    <span className="title">Chair of the Friends of Aberdeen University Library, 
-School of Divinity, History, Philosophy and Art History</span>
+                    <strong className="navigo">Ian J. Robotham</strong>
+                    <span className="title">Director, Digital & Information Services</span>
+                    <span className="title font-italic">Chair of AUP Executive Board</span>
                 </div>
-                <div className="name-card mb-3 col-md-4">
-                    <span className="image">
-                        <img src="/assets/francis-300px.png" alt="Portrait of Emma Francis" />
-                    </span>
-                    <strong className="navigo">Emma Francis</strong>
-                    <span className="title">Aberdeen University Press and Open Research Manager</span>
-                </div>                
+                             
                 <div className="name-card mb-3 col-md-4">
                     <span className="image">
                         <img src="/assets/watkinson-300px.png" alt="Portrait of Charles Watkinson" />
                     </span>
                     <strong className="navigo">Charles Watkinson</strong>
                     <span className="title">Director, University of Michigan Press</span>
-                </div>            
+                </div>   
+
+                <div className="name-card mb-3 col-md-4">
+                    <span className="image">
+                        <img src="/assets/wrighton-300px.png" alt="Portrait of John Wrighton" />
+                    </span>
+                    <strong className="navigo">John Wrighton</strong>
+                    <span className="title">Head of Research Strategy & Policy & REF Manager</span>
+                </div>         
         </div>
         <h2>Academic Advisory Board</h2>
         <p><em>For the period 2025-2028</em></p>
@@ -147,6 +156,7 @@ School of Divinity, History, Philosophy and Art History</span>
                     </span>
                     <strong className="navigo">Michael Brown</strong>
                     <span className="title">Chair, School of Divinity, History, Philosophy and Art History</span>
+                    <span className="title font-italic">Chair of the Academic Advisory Board</span>
                 </div>                
         </div>
         <div className="row">                
