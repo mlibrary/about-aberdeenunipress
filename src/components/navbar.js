@@ -24,7 +24,7 @@ const Navbar = () => {
           <div className="row">
             <div className="col-md-8">
               <a href="/" className="navbar-brand">
-                <img src="/assets/aberdeen.svg" alt="" height="75px" width="auto" className="navbar-brand-logo"/>
+                <img src="/assets/aberdeen.svg" alt="Aberdeen University Press" height="75px" width="auto" className="navbar-brand-logo"/>
               </a>              
             </div>
           </div>

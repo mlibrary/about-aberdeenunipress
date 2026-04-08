@@ -8,10 +8,6 @@ summary: Aberdeen University Press is seeking to expand its existing Academic
   those engaged with interdisciplinary research are particularly welcomed.
 date: 2024-11-19T12:31:17.022Z
 ---
-<!--StartFragment-->
-
-
-
 This is an opportunity for researchers at the University to support the development of a community-led Open Access Press. In doing so board members support other researchers to publish accessible research, reach global audiences and help to shape the University’s research culture and environment. 
 
 Serving on the Academic Advisory Board demonstrates a commitment to the principles of Open Research: that research should be accessible and freely available. 

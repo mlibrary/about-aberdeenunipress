@@ -12,7 +12,7 @@ const NewsCard = ({singleNews, cardStyle}) => {
         <div className="row no-gutters">
           <div className="col-md-10">
             <div className="card-body">
-              <h3 className="card-title"><Link to={slug}>{title}</Link></h3>
+              <h2 className="card-title"><Link to={slug}>{title}</Link></h2>
               <p className="card-text">{summary}</p>
               <p className="published"><small className="text-muted">Published {date}</small></p>
             </div>

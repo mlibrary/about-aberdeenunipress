@@ -388,11 +388,15 @@ blockquote {
 
 // News
 .blog-card-list {
-  h2 {
+  h1 {
     text-align: center;
     margin-bottom: 2rem;
     font-size: 1.95rem;
     font-weight: 600;
+  }
+
+  .card-body h2.card-title a {
+    color: $aberdeenuni-link;
   }
 }
 

@@ -54,6 +54,7 @@ const IndexPage = ({data}) => {
     <Layout>
       <SEO title="Home" />
         <section className="cards-container">
+          <h1 className="sr-only">Explore Aberdeen University Press</h1>
           <CardList cards={cards} />
         </section>
         <section className="tagline-container">
