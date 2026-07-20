@@ -234,7 +234,7 @@ School of Divinity, History, Philosophy and Art History</span>
                         <img src="/assets/tatler-300px.png" alt="Portrait of Ben Tatler" />
                     </span>
                     <strong className="navigo">Ben Tatler</strong>
-                    <span className="title">Dean for Research Culture</span>
+                    <span className="title">Vice President of Research</span>
                 </div>                 
         </div>
       </div>
