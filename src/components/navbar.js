@@ -32,10 +32,16 @@ const Navbar = () => {
       </header>
       <div className="nav-scroller">
         <div className="container">
-          <nav className="nav d-flex justify-content-between collapse">
-            <Link to="/about" className="nav-link text-dark">
-              About
-            </Link>
+          <nav className="nav d-flex justify-content-between collapse">            
+            <div className="dropdown show">
+              <button className="dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-expanded="false">
+                About
+              </button>
+              <div className="dropdown-menu">
+                <a className="dropdown-item" href="/about">About Us</a>
+                <a className="dropdown-item" href="/our-team">Our Team</a>
+              </div>
+            </div>
             <a className="nav-link text-dark" href="https://fulcrum.org/aberdeenunipress">Books</a>
             <a className="nav-link text-dark" href="https://journals.aberdeenunipress.org/journals">Journals</a>
             <div className="dropdown show">

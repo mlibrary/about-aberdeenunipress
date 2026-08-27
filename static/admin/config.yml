@@ -54,8 +54,25 @@ collections:
         label: Our Team
         fields:
           - { name: templateKey, label: "Template Key", widget: hidden, default: our-team-page }
-          - { name: title, label: Our Team }
-          - { name: body, label: Body, widget: markdown }
+          - { name: title, label: Page Title }
+          - name: groups
+            label: Team Groups
+            widget: list
+            fields:
+              - { name: groupTitle, label: "Group Title" }
+              - { name: subtitle, label: "Subtitle (optional)", required: false }
+              - { name: columnClass, label: "Column Width", widget: select, options: ["col-md-3", "col-md-4", "col-md-6"], default: "col-md-4" }
+              - { name: note, label: "Note (optional, markdown)", widget: markdown, required: false }
+              - name: members
+                label: Members
+                widget: list
+                summary: "{{fields.name}} — {{fields.role}}"
+                fields:
+                  - { name: name, label: Name }
+                  - { name: role, label: Role/Title }
+                  - { name: subRole, label: "Sub-role (optional, italic)", required: false }
+                  - { name: image, label: Photo, widget: image }
+                  - { name: imgFluid, label: "Responsive Image (img-fluid)", widget: boolean, default: false }
       - file: "src/content/our-principles.md"
         name: our-principles
         label: Our Guidining Principles
@@ -148,4 +165,3 @@ collections:
           - { name: templateKey, label: "Template Key", widget: hidden, default: privacy-page }
           - { name: title, label: Privacy }
           - { name: body, label: Body, widget: markdown }
-      
