@@ -29,8 +29,13 @@ groups:
         role: Chair in Irish, Scottish and Enlightenment History
         image: /assets/brown-300px.png
         imgFluid: false
+      - imgFluid: false
+        name: Neil Curtis
+        role: Head of University Collections
+        image: assets/Neil_photo_square.jpg
       - name: Andrew Dilley
-        role: "Chair of the Friends of Aberdeen University Library, School of Divinity, History, Philosophy and Art History"
+        role: Chair of the Friends of Aberdeen University Library, School of Divinity,
+          History, Philosophy and Art History
         image: /assets/dilley-300px.png
         imgFluid: true
       - name: Nicholas Forsyth
@@ -50,12 +55,12 @@ groups:
         image: /assets/oren-200px.png
         imgFluid: true
       - name: Ian J. Robotham
-        role: "Director, Digital & Information Services"
+        role: Director, Digital & Information Services
         subRole: Chair of AUP Executive Board
         image: /assets/robotham-300px.png
         imgFluid: true
       - name: Charles Watkinson
-        role: "Director, University of Michigan Press"
+        role: Director, University of Michigan Press
         image: /assets/watkinson-300px.png
         imgFluid: false
       - name: John Wrighton
@@ -63,7 +68,7 @@ groups:
         image: /assets/wrighton-300px.png
         imgFluid: false
   - groupTitle: Academic Advisory Board
-    subtitle: "For the period 2025-2028"
+    subtitle: For the period 2025-2028
     columnClass: col-md-3
     members:
       - name: Simon Bains
@@ -124,5 +129,3 @@ groups:
         image: /assets/tatler-300px.png
         imgFluid: false
 ---
-
-
