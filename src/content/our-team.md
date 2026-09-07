@@ -38,20 +38,13 @@ groups:
           History, Philosophy and Art History
         image: /assets/dilley-300px.png
         imgFluid: true
-      - name: Nicholas Forsyth
-        role: Provost
-        image: /assets/forsyth-300px.png
-        imgFluid: true
       - name: Emma Francis
         role: Aberdeen University Press and Open Research Manager
         image: /assets/francis-300px.png
         imgFluid: false
-      - name: Heather May Morgan
-        role: Dean for Enterprise and Innovation
-        image: /assets/morgan-300px.png
-        imgFluid: true
       - name: Nir Oren
-        role: Dean for Knowledge and Understanding
+        role: Dean for Research Performance & Interdisciplinary Institute Director - AI
+          & Big Data
         image: /assets/oren-200px.png
         imgFluid: true
       - name: Ian J. Robotham
@@ -59,6 +52,10 @@ groups:
         subRole: Chair of AUP Executive Board
         image: /assets/robotham-300px.png
         imgFluid: true
+      - imgFluid: false
+        name: Ben Tatler
+        role: Vice Principal for Research
+        image: assets/tatler-300px.png
       - name: Charles Watkinson
         role: Director, University of Michigan Press
         image: /assets/watkinson-300px.png
@@ -123,9 +120,5 @@ groups:
       - name: Rachel Shanks
         role: School of Education
         image: /assets/shanks-300px.png
-        imgFluid: false
-      - name: Ben Tatler
-        role: Vice Principal of Research
-        image: /assets/tatler-300px.png
         imgFluid: false
 ---
