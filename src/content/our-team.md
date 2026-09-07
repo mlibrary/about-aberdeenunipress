@@ -32,7 +32,7 @@ groups:
       - imgFluid: false
         name: Neil Curtis
         role: Head of University Collections
-        image: assets/Neil_photo_square.jpg
+        image: assets/neil_photo_square.jpg
       - name: Andrew Dilley
         role: Chair of the Friends of Aberdeen University Library, School of Divinity,
           History, Philosophy and Art History
