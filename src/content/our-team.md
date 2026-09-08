@@ -29,10 +29,6 @@ groups:
         role: Chair in Irish, Scottish and Enlightenment History
         image: /assets/brown-300px.png
         imgFluid: false
-      - imgFluid: false
-        name: Neil Curtis
-        role: Head of University Collections
-        image: assets/neil_photo_square.jpg
       - name: Andrew Dilley
         role: Chair of the Friends of Aberdeen University Library, School of Divinity,
           History, Philosophy and Art History
@@ -52,10 +48,6 @@ groups:
         subRole: Chair of AUP Executive Board
         image: /assets/robotham-300px.png
         imgFluid: true
-      - imgFluid: false
-        name: Ben Tatler
-        role: Vice Principal for Research
-        image: assets/tatler-300px.png
       - name: Charles Watkinson
         role: Director, University of Michigan Press
         image: /assets/watkinson-300px.png
@@ -71,10 +63,6 @@ groups:
       - name: Simon Bains
         role: University Librarian
         image: /assets/bains-300px.png
-        imgFluid: false
-      - name: Michael Beaney
-        role: School of Divinity, History, Philosophy and Art History
-        image: /assets/beaney-300px.png
         imgFluid: false
       - name: Anshuman Bhardwaj
         role: School of Geosciences
@@ -105,10 +93,6 @@ groups:
         role: School of Law
         image: /assets/moran-300px.png
         imgFluid: false
-      - name: Juliano Morimoto
-        role: School of Natural and Computing Sciences
-        image: /assets/morimoto-300px.png
-        imgFluid: true
       - name: Joseph Pierce
         role: School of Geosciences
         image: /assets/pierce-200px.png
