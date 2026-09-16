@@ -52,6 +52,10 @@ groups:
         subRole: Chair of AUP Executive Board
         image: /assets/robotham-300px.png
         imgFluid: true
+      - imgFluid: false
+        name: Ben Tatler
+        role: Vice Principal for Research
+        image: /assets/tatler-300px.png
       - name: Charles Watkinson
         role: Director, University of Michigan Press
         image: /assets/watkinson-300px.png
