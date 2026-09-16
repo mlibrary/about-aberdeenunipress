@@ -2,11 +2,19 @@ import React from "react";
 import ReactMarkdown from "react-markdown";
 import { PreviewPage, PreviewTitle } from "./components";
 
+const getImagePath = (image) => {
+  if (!image || image.startsWith("/") || /^https?:\/\//i.test(image)) {
+    return image;
+  }
+
+  return `/${image}`;
+};
+
 const TeamMember = ({ member, columnClass }) => {
   const name = member.get("name");
   const role = member.get("role");
   const subRole = member.get("subRole");
-  const image = member.get("image");
+  const image = getImagePath(member.get("image"));
   const imgFluid = member.get("imgFluid");
 
   return (
