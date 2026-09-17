@@ -52,6 +52,10 @@ groups:
         subRole: Chair of AUP Executive Board
         image: /assets/robotham-300px.png
         imgFluid: true
+      - imgFluid: false
+        name: Ben Tatler
+        role: Vice-Principal for Research
+        image: /assets/tatler-300px.png
       - name: Charles Watkinson
         role: Director, University of Michigan Press
         image: /assets/watkinson-300px.png
@@ -85,6 +89,10 @@ groups:
         role: Aberdeen University Press Manager
         image: /assets/francis-300px.png
         imgFluid: true
+      - imgFluid: false
+        name: Johannes Heim
+        role: Dean for Research Cultures
+        image: /assets/Heim.png
       - name: Sandra Hynes
         role: Aberdeen University Press Administrator
         image: /assets/hynes-300px.png
