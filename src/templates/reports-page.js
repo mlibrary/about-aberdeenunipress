@@ -27,7 +27,7 @@ const Reports = ({data}) => {
         </section>
         <section>
           <div id="readership-map" className="readership-map">
-            <ReactMarkdown source={readershipMapDescription} />
+            <ReactMarkdown>{readershipMapDescription}</ReactMarkdown>
             <div className="readership-map-embed">
               <iframe title="Readership Map" frameborder="0" height="650" width="100%" src="#"></iframe>
             </div>
