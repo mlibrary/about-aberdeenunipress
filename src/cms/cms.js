@@ -29,3 +29,16 @@ CMS.registerPreviewTemplate("our-team", OurTeamPreview);
 ].forEach((name) => {
   CMS.registerPreviewTemplate(name, BasicPagePreview);
 });
+
+const branch = process.env.GATSBY_CMS_BRANCH || "main";
+
+CMS.init({
+  config: {
+    load_config_file: true,
+    backend: {
+      name: "github",
+      repo: "mlibrary/about-aberdeenunipress",
+      branch,
+    },
+  },
+});

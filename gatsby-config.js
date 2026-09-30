@@ -1,3 +1,11 @@
+// React 19 no longer ships the UMD files that gatsby-plugin-decap-cms copies.
+const bundleCmsDependencies = config => {
+  config.externals = []
+  config.plugins = config.plugins.filter(plugin =>
+    ![`CopyPlugin`, `HtmlWebpackTagsPlugin`].includes(plugin.constructor.name)
+  )
+}
+
 module.exports = {
   siteMetadata: {
     title: `Aberdeen University Press`,
@@ -26,12 +34,19 @@ module.exports = {
     },
     {
       resolve: `gatsby-plugin-sass`,
+      options: {
+        sassOptions: {
+          charset: false,
+        },
+      },
     },
     {
       resolve: `gatsby-plugin-decap-cms`,
       options: {
-        modulePath: `${__dirname}/src/cms/cms.js`,
+        manualInit: true,
         enableIdentityWidget: false,
+        modulePath: `${__dirname}/src/cms/cms.js`,
+        customizeWebpackConfig: bundleCmsDependencies,
       }
     },
     {
