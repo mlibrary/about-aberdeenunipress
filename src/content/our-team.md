@@ -51,11 +51,6 @@ groups:
         name: Adelaja Osofero
         role: Associate Vice-Principal for Enterprise & Innovation
         image: https://www.abdn.ac.uk/img/200x200/staffpages/uploads/s01ao5/avatar/O4EzjqoA67y4SBD9ssIHqq5PTebvMPmfrEXFH8tx.jpeg
-      - name: Ian J. Robotham
-        role: Director, Digital & Information Services
-        subRole: Chair of AUP Executive Board
-        image: /assets/robotham-300px.png
-        imgFluid: true
       - imgFluid: false
         name: Ben Tatler
         role: Vice-Principal for Research
