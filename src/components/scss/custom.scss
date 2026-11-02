@@ -438,19 +438,23 @@ blockquote {
 
 p.social {
   padding-top: .4em;
-  a {
-    padding-right: 0.75em;
-    svg {
-      display: inline-block;
-      vertical-align: middle;
-      fill: $aberdeenuni-brand-color;
-    }
-  }
+  display: flex;
+  justify-content: flex-end;
+}
 
-  .tw {
-    height: 16px;
-    width: auto;
-    padding-left: 1rem;
+// social links
+.social-link {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+
+  svg {
+    width: 24px;
+    height: 24px;
+    vertical-align: bottom;
   }
 }
 
@@ -476,10 +480,6 @@ p.social {
     .logo-img img {
       height: auto;
       width: 200px;
-    }
-
-    .twitter {
-      display: inline-block;
     }
 
     .footer-email {
